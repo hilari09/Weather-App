@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card" id="unique">
+      <div class="search">
+        <div class="heading">WEATHER APP</div>
+        <input type="text" placeholder="Enter city name" spellcheck="false">
+        <button class="image-button"><img src="images/search.png" class="button-icon"></button>
+      </div>
+      <div class="error">
+        <p>Enter valid city name</p>
+      </div>
+      
+      <div class="weather">
+          <div class="cover">
+          <div class="desc">
+            <img src="rain.gif" class="weather-icon">
+            <p class="main">Cloudy</p>
+            <h1 class="temp">20°c</h1>
+            <h2 class="city">New York</h2>
+          </div>
+        <div class="details">
+          <div class="col">
+            <img src="images/temperature.png">
+            <div>
+              <p class="feel_like">25°c</p>
+              <p>Feels like</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/humidity1.png">
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/wind1.png">
+            <div>
+              <p class="wind">20 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
